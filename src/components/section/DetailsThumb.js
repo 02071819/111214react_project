@@ -1,0 +1,31 @@
+import React , { Component } from 'react'
+
+// export default function DetailsThumb({images, setIndex}) {
+//     return (
+//         <div className="thumb">
+//             {
+//                 images.map((img, index)=>(
+//                     <img src={img} alt="" key={index} 
+//                     onClick={() => setIndex(index)} />
+//                 ))
+//             }
+//         </div>
+//     )
+// }
+
+export class DetailsThumb extends Component{
+    render(){
+        const {images, setIndex} = this.props;
+        return(
+            <div className="thumb">
+                {
+                    images.map((img, index) =>(
+                        <img src={img} alt="" key={index} 
+                        onClick={() => setIndex(index)} />
+                    ))
+                }
+            </div>
+        )
+    }
+}
+export default DetailsThumb

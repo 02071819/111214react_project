@@ -1,19 +1,65 @@
 .details{
+    max-width:1000px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 50px 0;
+    margin: 50px 220px;
+}
+.details .recommandation h2{
+    position: relative;
+    margin-top: 30px;
+}
+.details .recommandation .card{
+    display: flex;
+    justify-content: space-between;
+    max-height: 300px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.details .recommandation hr{
+    background: #000;
+    position: relative;
+    margin-top: 20px;
+    left:30px;
+    height:1px;
+}
+.details .recommandation .card .card1 img{
+    height: 280px;
+    margin: 0;
+    padding: 0;
+}
+.details .recommandation .card .card1 .rec_content1{
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.details .recommandation .card .card2 .rec_content2{
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.details .recommandation .card .card3 .rec_content3{
+    margin-top: 10px;
+    padding-left: 50px;
+}
+.details .recommandation .card .card2 img{
+    height: 280px;
+    margin: 0;
+    padding: 0;
+}
+.details .recommandation .card .card3 img{
+    height: 280px;
+    margin: 0;
+    padding: 0;
 }
 .details img{
     max-width: 500px;
     min-width: 290px;
-    height: 300px;
+    height: 460px;
     display: block;
     object-fit: cover;
     margin: 25px;
 }
 .details .box{
-    max-width: 500px;
+    max-width: 550px;
     min-width: 290px;
     margin: 25px;
 }

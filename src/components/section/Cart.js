@@ -25,13 +25,13 @@ export class Cart extends Component {
                 {
                     cart.map(item => (
                         <div className="details cart" key={item._id}>
-                            <img src={item.src} alt="" />
+                            <img src={item.images[0]} alt="" />
                             <div className="box">
                                 <div className="row">
                                     <h2>{item.title}</h2>
                                     <span>${item.price * item.count}</span>
                                 </div>
-                                <Colors colors={item.colors} />
+                                {/* <Colors colors={item.colors} /> */}
                                 <p>{item.description}</p>
                                 <p>{item.content}</p>
                                 <div className="amount">

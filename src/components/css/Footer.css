@@ -1,0 +1,95 @@
+footer{
+    min-height: 380px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+footer .Copyright{
+    position: relative;
+    top:330px;
+    right:320px;
+}
+footer .footer1{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+footer .footer1 .serv1{
+    font-weight: bold;
+    font-size: 18px;
+}
+footer .footer1 .serv2{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer1 .serv3{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer2{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+footer .footer2 .payinfo1{
+    font-weight: bold;
+    font-size: 18px;
+}
+footer .footer2 .payinfo2{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer2 .payinfo3{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer2 .payinfo4{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer2 .payinfo5{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer2 .payinfo6{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer3{
+    position: relative;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+footer .footer3 .serv_info{
+    font-weight: bold;
+    font-size: 18px;
+}
+footer .footer3 .foottime{
+    position: relative;
+    padding-top: 25px;
+}
+footer .footer3 .footphone{
+    position: relative;
+    padding-top: 25px;
+}
+footer .Icon_footer{
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+}
+footer .Icon_footer .fb{
+    position: relative;
+    right:100px;
+    width:40px;
+    color: red;
+}
+footer .Icon_footer .ig{
+    position: relative;
+    right:80px;
+    width:40px;
+}
+footer .Icon_footer .tw{
+    position: relative;
+    right:60px;
+    width:40px;
+}

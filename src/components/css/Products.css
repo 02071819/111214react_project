@@ -1,51 +1,152 @@
 #product{
     width: 100%;
+    background: #FFFCF8;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }
-.card{
-    min-width: 300px;
-    min-height: 490px;
+.cardbg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.sidebar{
+    padding-left: 65px;
+    padding-top: 50px;
+    width: 350px;
+    height:750px;
+}
+.sidebar .BarTitle1{
+    position: relative;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sidebar .BarTitle1_bar1{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar1:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar2{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar2:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar3{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar3:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar4{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar4:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar5{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar5:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar6{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar6:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar7{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar7:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar8{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar8:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle1_bar9{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle1_bar9:hover{
+    color:lightseagreen;
+}
+.sidebar .BarTitle2{
+    position: relative;
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.sidebar .BarTitle2_bar1{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle2_bar2{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle2_bar3{
+    position: relative;
+    padding-top: 10px;
+}
+.sidebar .BarTitle2_bar4{
+    position: relative;
+    padding-top: 10px;
+}
+.cardbg .card{
+    max-width: 300px;
+    max-height: 590px;
     border: 1px solid #eee;
     overflow: hidden;
     padding: 10px;
     box-shadow: 2px 8px 20px #ddd;
     margin: 10px;
     transition: 0.5s linear;
+    background: white;
 }
-.card:hover{
+.cardbg .card:hover{
     box-shadow: none;
 }
-.card img{
+.cardbg .card img{
     max-width: 300px;
     width: 100%;
     height: 100%;
-    max-height: 300px;
+    max-height: 400px;
     display: block;
     object-fit: cover;
 }
-.card h3{
+.cardbg .card h3{
     text-transform: uppercase;
     margin: 10px 0;
 }
-.card h3 a{
+.cardbg .card h3 a{
     text-decoration: none;
     color: #333;
 }
-.card h3 a:hover{
+.cardbg .card h3 a:hover{
     color: crimson;
 }
-.card span{
+.cardbg .card span{
     color: crimson;
 }
-.card p{
+.cardbg .card p{
     margin: 10px 0;
 }
-.card button{
+.cardbg .card button{
     border: none;
     outline: none;
-    background: #333;
+    background: #FFDB66;
     color: white;
     width: 100%;
     height: 40px;
