@@ -93,3 +93,43 @@ footer .Icon_footer .tw{
     right:60px;
     width:40px;
 }
+@media(max-width: 650px){
+    footer .footer1 {
+        position: relative;
+        padding-left: 220px;
+        padding-top: 50px;
+    }
+    footer {
+        min-height: 380px;
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+        align-items: start;
+    }
+    footer .footer2 {
+        position: relative;
+        padding-left: 220px;
+        padding-top: 50px;
+    }
+    footer .footer3 {
+        position: relative;
+        padding-left: 220px;
+        padding-top: 50px;
+    }
+    footer .Icon_footer .fb {
+        position: relative;
+        right: -440px;
+        width: 40px;
+        color: red;
+    }
+    footer .Icon_footer .ig {
+        position: relative;
+        right: -190px;
+        width: 40px;
+    }
+    footer .Icon_footer .tw {
+        position: relative;
+        right: 60px;
+        width: 40px;
+    }
+}

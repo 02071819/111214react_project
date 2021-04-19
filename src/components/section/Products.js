@@ -22,11 +22,13 @@ export class Products extends Component {
                     <div className="BarTitle1_bar7">歷史／戰役</div>
                     <div className="BarTitle1_bar8">運動／競技</div>
                     <div className="BarTitle1_bar9">其他類型</div>
-                    <div className="BarTitle2">快速導覽</div>
-                    <div className="BarTitle2_bar1">暢銷榜</div>
-                    <div className="BarTitle2_bar2">新書</div>
-                    <div className="BarTitle2_bar3">即將出版</div>
-                    <div className="BarTitle2_bar4">讀者書評</div>
+                    <div className="Bar2">
+                        <div className="BarTitle2">快速導覽</div>
+                        <div className="BarTitle2_bar1">暢銷榜</div>
+                        <div className="BarTitle2_bar2">新書</div>
+                        <div className="BarTitle2_bar3">即將出版</div>
+                        <div className="BarTitle2_bar4">讀者書評</div>
+                    </div>
                 </div>
 
                 <div className="cardbg">

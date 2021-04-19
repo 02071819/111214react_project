@@ -21,6 +21,8 @@ nav ul{
 nav ul li{
     list-style: none;
     display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
 }
 nav ul li a{
     text-decoration: none;

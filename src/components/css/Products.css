@@ -17,7 +17,7 @@
 .sidebar .BarTitle1{
     position: relative;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
 }
 .sidebar .BarTitle1_bar1{
     position: relative;
@@ -86,7 +86,7 @@
     position: relative;
     padding-top: 60px;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 27px;
 }
 .sidebar .BarTitle2_bar1{
     position: relative;
@@ -147,7 +147,7 @@
     border: none;
     outline: none;
     background: #FFDB66;
-    color: white;
+    color:black;
     width: 100%;
     height: 40px;
     display: block;
@@ -155,4 +155,28 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 15px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media(max-width: 650px){
+    #product{
+        display: flex;
+        flex-direction: column;
+    }
+    .sidebar{
+        margin-bottom: 0;
+        height:400px;
+    }
+    .sidebar .Bar2{
+        position:absolute;
+        margin-left:200px;
+        margin-bottom: 0;
+        top:75px;
+    }
+    .cardbg{
+        position: relative;
+        margin-right: 70px;
+    }
 }
